@@ -1,0 +1,13 @@
+.parent {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  .child {
+    visibility: hidden;
+    color: red;
+  }
+  
+  .parent:hover .child {
+    visibility: visible;
+  }
