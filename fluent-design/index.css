@@ -1,22 +1,22 @@
 body {
-    background-color: hsla(300, 12%, 5%, 0.978);
-  }
-  
-  .button {
-    font-size: large;
-    text-decoration: none;
-    color: #e5e5e5;
-    background-color: rgba(192, 153, 246, 0.345);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: none;
-    box-shadow: inset 0 1px rgba(39, 39, 39, 0.1), inset 0 -1px rgba(255, 255, 255, 0.05);
-    border-radius: 3.5px;
-  }
-  
-  .button:hover {
-    background-color: rgba(117, 21, 252, 0.403);
-    box-shadow: inset 0 1px rgba(0, 0, 0, 0.2), inset 0 -1px rgba(255, 255, 255, 0.1);
-  }
+  background-color: hsla(300, 12%, 5%, 0.978);
+}
+
+.button {
+  font-size: large;
+  text-decoration: none;
+  color: #e5e5e5;
+  background-color: rgba(192, 153, 246, 0.345);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  box-shadow: inset 0 1px rgba(39, 39, 39, 0.1), inset 0 -1px rgba(255, 255, 255, 0.05);
+  border-radius: 3.5px;
+}
+
+.button:hover {
+  background-color: rgba(117, 21, 252, 0.403);
+  box-shadow: inset 0 1px rgba(0, 0, 0, 0.2), inset 0 -1px rgba(255, 255, 255, 0.1);
+}
