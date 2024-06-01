@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Subpage Redirection</title>
+<script>
+function redirect() {
+  // Get the user input
+  var userInput = document.getElementById("urlInput").value;
+  
+  // Optional validation using JavaScript (explained later)
+  
+  // Construct the complete URL with "checkId/"
+  var url = "checkId/" + userInput;
+
+  // Redirect the user to the constructed URL
+  window.location.href = url;
+  
+  // Prevent default form submission behavior (optional)
+  return false;
+}
+</script>
+</head>
+<body>
+<form onsubmit="return redirect()">
+  Enter subpage number: <input type="text" id="urlInput" name="url" pattern="[0-9]+"><br>
+  <button type="submit">Go</button>
+</form>
+</body>
+</html>
