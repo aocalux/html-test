@@ -104,6 +104,14 @@ button:hover {
     text-decoration: none;
 }
 
+.error {
+    text-align: center;
+    color: #ea4c4ce1;
+    font-style: italic;
+    font-size: 120%;
+    display: none;
+}
+
 a:hover {
     text-decoration: underline;
 }
