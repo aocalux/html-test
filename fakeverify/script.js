@@ -9,7 +9,14 @@ function verifyCaptcha() {
 }
 
 function afterVerify() {
-    window.location.href = "http://google.de";
+    const urlParams = new URLSearchParams(window.location.search);
+    const ref = urlParams.get('ref');
+
+    if (ref) {
+        window.location.href = `https://gochris.li/${ref}`;
+    } else {
+        alert("Missing ref argument!");
+    } 
 }
 
 function toggleCaptcha(display, radius, margin, opacity) {
