@@ -93,6 +93,13 @@ button:hover {
     margin-left: 40%;
 }
 
+.login-inst {
+    color: #b2b2b2;
+    margin-top: 12px;
+    text-decoration: none;
+    position: relative;
+    margin-left: 37%;
+}
 
 .create-account {
     margin-top: 36px;
@@ -125,5 +132,9 @@ a:hover {
     .forgot-password {
         margin-left: 0px;
         display: block;
+    }
+
+    .login-inst {
+        display: none;
     }
 }
