@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,23 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div>
+        <br>
+        <h2>You will be redirected in 5 seconds . . .</h2>
         <img src="ad.png" alt="">
     </div>
+
+    <script>
+        function redirectAfterDelay(delayInMilliseconds, targetUrl) {
+            setTimeout(function () {
+                window.location.href = targetUrl;
+            }, delayInMilliseconds);
+        }
+
+        redirectAfterDelay(5000, "https://www.example.com");
+    </script>
 </body>
+
 </html>
