@@ -1,22 +1,40 @@
 body {
     font-family: sans-serif;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background-color: black;
     color: #d7d7d7;
     background-image: linear-gradient(to bottom right, rgba(118, 17, 162, 0.195), rgba(27, 27, 27, 0.397));
 }
 
+.topBar a {
+    font-size: 1.3em;
+    margin-left: 10px;
+    text-decoration: none;
+    color: blanchedalmond;
+}
+
+.topBar a:hover {
+    color: rgb(255, 250, 242);
+}
+
+.topLeft {
+    float: right;
+    margin-right: 10px;
+    left: 0;
+}
+
 p {
     color: #d7d7d7;
     font-size: 1.2em;
-    text-align: left;
-    justify-content: left;
-    align-items: left;
-    align-items: left;
+}
+
+.outContainer { 
+    margin: 0;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -33,6 +51,66 @@ p {
 
 .topHeader{
     margin-top: 0px;
-    margin-bottom: 2px;
+    margin-bottom: 15px;
     font-size: 3.5em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 75vw;
+    font-size: 1.2em;
+}
+
+.table {
+    border: 2px solid rgb(77, 77, 77);
+    border-radius: 5px;
+}
+
+th, td {
+    border: 2px solid rgb(56, 56, 56);
+    overflow: hidden;
+    padding: 8px;
+}
+
+th {
+    background-color: rgba(65, 21, 107, 0.357);
+}
+
+td {
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: hsl(0, 0%, 6.5%);
+}
+
+tr:nth-child(odd) {
+    background-color: hsla(0, 0%, 7%, 0.563);
+}
+
+.remove {
+    background-color: rgb(187, 4, 4);
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+}
+
+.remove:hover {
+    background-color: rgb(142, 2, 2);
+}
+
+.btn {
+    background-color: rgb(150, 4, 187);
+    color: whitesmoke;
+    text-decoration: none;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 4px;
+    margin-right: 6px;
+}
+
+.btn:hover {
+    background-color: rgb(124, 2, 93);
 }
