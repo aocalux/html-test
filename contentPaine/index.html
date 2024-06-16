@@ -3,7 +3,6 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cosmos - My Links</title>
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="fav.png" type="image/x-icon">
@@ -34,7 +33,13 @@
         <div class="container">
             <h1 class="topHeader">My Links</h1>
 
-
+            <form action="" method="post" class="add">
+                <label for="shorturl">cliq.aocalux.com/?l=</label>
+                <input type="text" name="shorturl" placeholder="short" required autocomplete="none" class="shorturl">
+                <input type="text" name="desturl" placeholder="Destination URL" required autocomplete="none" class="desturl">
+                <button type="submit">&nbsp; Add &nbsp;</button>
+            </form>
+            <div class="error">Sorry, this short URL is allredy taken.</div>
             <div class="table">
                 <table>
                     <tr>
