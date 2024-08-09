@@ -1,0 +1,22 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+textarea {
+    width: 800px;
+    height: 380px;
+    resize: none;
+}
+
+#subject-input {
+    width: 745px;
+}
+
+#name {
+    width: 720px;
+}
+
+#email {
+    width: 720px;
+}
