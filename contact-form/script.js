@@ -7,24 +7,20 @@ contactForm.addEventListener("submit", (e) => {
     let body = document.getElementById("body-input").value;
     let email = document.getElementById("email").value;
 
-    let protocol = "mailto:";
     let sendToEmail = "contact-form-en@chris-prickartz.de";
     let subjectPrefix = "CONTACT-FORM";
     let bodyPrefix = "NEW CONTACT FORM SUBMISSION";
 
-    let sendSubject = subjectPrefix + " || " + name + " || " + subject ;
+    let sendSubject = subjectPrefix + " || " + name + " || " + subject;
 
     let sendBody =  bodyPrefix + "\n"
-                    + "-------------------------------------------------------------------------\n" 
+                    + "______________________________________________________________________________________________________________\n\n" 
                     + "NAME: " + name + "\n"
                     + "EMAIL: " + email + "\n"
                     + "SUBJECT: " + subject + "\n"
-                    + "-------------------------------------------------------------------------\n\n"
-                    + body;
+                    + "______________________________________________________________________________________________________________\n\n"
+                    + body
+                    + "\n\n______________________________________________________________________________________________________________";
 
-    document.getElementById("sendForm").action = protocol + sendToEmail;
-    document.getElementById("subject").value = sendSubject;
-    document.getElementById("body").value = sendBody;
-
-    document.getElementById("sendForm").submit();
+    window.location.href = "mailto:" + sendToEmail + "?subject=" + encodeURIComponent(sendSubject) + "&body=" + encodeURIComponent(sendBody);
 });
