@@ -9,16 +9,16 @@
 <body>
     <form id="contact-form">
         <label for="name">Your Name: </label>
-        <input type="text" name="name" id="name" required> <br> <br>
+        <input type="text" name="name" id="name" required autocomplete="name"> <br> <br>
 
         <label for="email">Your Email: </label>
-        <input type="email" name="email" id="email" required> <br> <br>
+        <input type="email" name="email" id="email" required autocomplete="email"> <br> <br>
 
-        <label for="subject-input">Subject: </label>
+        <label for="subject-input">Subject:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
         <input type="text" name="subject-input" id="subject-input" required> <br> <br>
 
         <label for="body-input">Message: </label> <br>
-        <textarea name="body-input" id="body-input"></textarea> <br> <br>
+        <textarea name="body-input" id="body-input" required></textarea> <br> <br>
         <button type="submit">Submit via Email</button>
     </form>
     
