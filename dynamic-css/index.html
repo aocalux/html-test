@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function loadCSS() {
+        const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const lightCSS = 'light-theme.css';
+        const darkCSS = 'dark-theme.css';
+
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = prefersDarkMode ? darkCSS : lightCSS;
+
+        document.head.appendChild(link);
+        }
+
+        loadCSS();
+    </script>
+</body>
+</html>
