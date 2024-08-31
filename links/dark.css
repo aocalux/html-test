@@ -1,0 +1,67 @@
+@font-face {
+    font-family: blackopsone-regular;
+    src: url("https://chris-prickartz.de/style/fonts/BlackOpsOne/BlackOpsOne-Regular.ttf");
+}
+
+body {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000e7;
+    height: 97vh;
+    display: grid;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+    font-family: blackopsone-regular;
+    padding-bottom: 35px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 260%;
+    font-weight: 900;
+    background: linear-gradient(to bottom right, rgb(118, 5, 167), rgb(155, 100, 179));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    word-spacing: 8px;
+}
+
+.button-container {
+    display: grid;
+    justify-content: center;
+}
+
+.button {
+    margin: 12px;
+    padding: 25px;
+    max-width: 700px;
+    min-width: 180px;
+    width: 80vw;
+    background-color: #7218c7;
+    color: rgb(226, 226, 226);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 140%;
+}
+
+.button:hover {
+    background-color: #7218c7d7;
+}
+
+.legal {
+    margin-top: 30px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(176, 196, 222, 0.589);
+    font-size: 14px;
+}
+
+.legal:hover {
+    text-decoration: underline;
+}
