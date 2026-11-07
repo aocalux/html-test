@@ -13,7 +13,7 @@ function afterVerify() {
     const ref = urlParams.get('ref');
 
     if (ref) {
-        window.location.href = `https://gochris.li/verify/${ref}`;
+        window.location.href = `https://beispiel.de/${ref}`;
     } else {
         alert("Missing ref argument!");
     } 

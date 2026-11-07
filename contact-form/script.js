@@ -7,7 +7,7 @@ contactForm.addEventListener("submit", (e) => {
     let body = document.getElementById("body-input").value;
     let email = document.getElementById("email").value;
 
-    let sendToEmail = "contact-form-en@chris-prickartz.de";
+    let sendToEmail = "contact-form-en@beispiel.de";
     let subjectPrefix = "CONTACT-FORM";
     let bodyPrefix = "NEW CONTACT FORM SUBMISSION";
 

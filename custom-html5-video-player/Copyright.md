@@ -1,6 +1,6 @@
 __**Everything not specifically mentioned below__**
   
-Copyright © 2024 [C.Prickartz](https://www.chris-prickartz.de). All rights reserved.
+Copyright © 2024 J. Prickartz. All rights reserved.
 
 This material may not be reproduced, distributed, transmitted, cached, or otherwise used, except with the prior written permission of the copyright holder(s). Unauthorized use of any content may result in legal action by the copyright holder(s) or a designated representative.
   
